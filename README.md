@@ -34,7 +34,7 @@ Open a terminal or command prompt and run:
 git clone https://github.com/kkyian/aimodel
 cd aimodel
 # Create a virtual environment named 'venv'
-python -m venv venv
+python3 -m venv venv
 
 # Activate the virtual environment
 # On macOS/Linux:
