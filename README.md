@@ -24,8 +24,6 @@ Before building and running the app, make sure you have:
 - Recommended: A virtual environment for dependency management
 
 ## Getting Started
-# to install PyInstaller run:
-pip install pyinstaller
 ### 1. Clone the Repository
 
 Open a terminal or command prompt and run:
@@ -41,7 +39,7 @@ python3 -m venv venv
 source venv/bin/activate
 # On Windows:
 venv\Scripts\activate
-pip install torch transformers diffusers pillow
+pip install torch transformers diffusers pillow pyinstaller
 pyinstaller --onefile --windowed --distpath /path/to/where/you/want/the/dist/folder/to/be aimodel.py
 #After the build completes, a dist folder will be created in your project directory. Inside this folder, you’ll find your executable:
 	•	Windows: aimodel.exe
