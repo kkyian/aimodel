@@ -42,13 +42,13 @@ source venv/bin/activate
 # On Windows:
 venv\Scripts\activate
 pip install torch transformers diffusers pillow
-pyinstaller --onefile --windowed replace/this/with/the/root/to/aimodel.py
+pyinstaller --onefile --windowed --distpath /path/to/where/you/want/the/dist/folder/to/be aimodel.py
 #After the build completes, a dist folder will be created in your project directory. Inside this folder, you’ll find your executable:
 	•	Windows: aimodel.exe
 	•	macOS/Linux: an executable file (or an app bundle on macOS)
-#To run the app:
-# On Windows:
-dist\aimodel.exe
+###To run app:
+##On mac:
+#Serach dist and apply filter "kind is folder" by pressing plus on the right side of finder
+##On Windows
+# 
 
-# On macOS/Linux:
-./dist/aimodel
