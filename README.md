@@ -1,6 +1,6 @@
 # AIMode Chat App
 
-AIMode Chat App is a multi-modal chat application that uses advanced natural language processing models from Hugging Face to deliver engaging, context-aware conversations. Built with Python and Tkinter, this app demonstrates how to integrate state-of-the-art conversational models (such as Blenderbot) into a user-friendly GUI.
+AIModel Chat App is a multi-modal chat application that uses advanced natural language processing models from Hugging Face to deliver engaging, context-aware conversations. Built with Python and Tkinter, this app demonstrates how to integrate state-of-the-art conversational models (such as Blenderbot) into a user-friendly GUI.
 
 ## Features
 
