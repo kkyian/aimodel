@@ -16,7 +16,7 @@ model = BlenderbotForConditionalGeneration.from_pretrained(model_name).to(device
 class AIMODELAppV2:
     def __init__(self, root):
         self.root = root
-        self.root.title("AIMODEL Chat App V2")
+        self.root.title("AIMODEL Chat App V3")
 
         self.max_length = 256
         self.temperature = 0.7
