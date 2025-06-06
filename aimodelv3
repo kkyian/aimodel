@@ -127,7 +127,10 @@ class AIMODELAppV2:
             )
 
             generated_text = tokenizer.decode(reply_ids[0], skip_special_tokens=True)
-            bot_response = generated_text.replace(prompt, '').strip()
+            if generated_text.startswith(prompt):
+                bot_response = generated_text[len(prompt):].strip()
+            else:
+                bot_response = generated_text.strip()
             if not bot_response:
                 bot_response = "I'm not sure."
 
